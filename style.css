@@ -15,12 +15,11 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-header,
-.sec1 {
+/* HEADER  */
+header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
-    width: 100%;
+    width: 75%;
 }
 
 header a {
@@ -55,18 +54,48 @@ li {
     list-style: none;
 }
 
-.sec1{
-    justify-self: start;
+
+/* SECTION 1 */
+.sec1 {
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.sec1 div{
-    flex: 1;
+.sec1-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding: 16px;
+    width: 75%;
 }
 
-.img {
-    background-color: lightgray;
-    border: 2px solid lightblue;
-    min-width: 100px;
-    height: auto;
+.text h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:bolder;
+}
+
+.text p{
+    color: #f9faf8;
+}
+
+.sec1-contents .text {
+    max-width: 50%;
+    min-width: 25%;
+
+}
+
+.sec1 .sec1-contents .img {
+    flex: 1 0 auto;
+
+}
+
+.sec1 .sec1-contents .img img {
+    width: 25rem;
+    height: 25rem;
+    background-color: transparent;
 }
 
