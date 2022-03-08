@@ -202,16 +202,40 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 16px;
+    flex-wrap: wrap;
+    padding: 2em;
     background-color: rgb(50, 123, 231);
     color: #e5e7eb;
     border-radius: 12px;
     height: 6em;
 }
 
+.ad-text {
+    max-width: 35em;
+    max-height: 20em;
+}
+
 .ad-card button{
     background-color: rgb(50, 123, 231);
-    border: 1px solid  white;
+    border: 2px solid  white;
     color: white;
-    bo
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 10em;
+    height: 3em;   
+}
+
+/*FOOTER*/
+
+.footer-sec {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    margin: 60px;
 }
