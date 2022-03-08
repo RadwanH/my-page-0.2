@@ -19,7 +19,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 70%;
 }
 
 header a {
@@ -54,13 +54,19 @@ li {
     list-style: none;
 }
 
+/* ALL SECTIONS*/
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+ }
+ 
 
 /* SECTION 1 */
 .sec1 {
     background-color: #1f2937;
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .sec1-contents {
@@ -69,7 +75,7 @@ li {
     align-items: center;
     gap: 2em;
     padding: 16px;
-    width: 75%;
+    width: 70%;
 }
 
 .text h2 {
@@ -99,16 +105,7 @@ li {
     background-color: transparent;
 }
 
-/* SECTION*/
-
-.sec2 {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   padding: 0;
-}
+/* SECTION 2*/
 
 .sec2-container {
     display: flex;
@@ -131,7 +128,7 @@ li {
     gap: 2em;
     flex-wrap: wrap;
     padding: 32px;
-    width: 75%;
+    width: 70%;
 }
 
 .card {
@@ -162,4 +159,35 @@ li {
     font-size: small;
     color: hsl(0, 0%, 40%);
     text-align: center;
+}
+
+/* SECTION 3 */
+
+.sec3 {
+    background-color: #e5e7eb;
+}
+
+.sec3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 36px;
+}
+
+.wisdom {
+    display: flex;
+    flex-direction: column;
+}
+
+.wisdom p {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.wisdom span {
+    font-weight: bold;
+    font-size: 40px;
+    align-self: flex-end;
 }
