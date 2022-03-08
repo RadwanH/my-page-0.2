@@ -1,2 +1,2 @@
 # my-page-0.2
-This is a practice repository for my html and css skills 
+This is a simple page where I practiced some HTML & CSS.
